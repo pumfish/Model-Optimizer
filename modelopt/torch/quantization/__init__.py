@@ -15,8 +15,8 @@
 
 """Quantization package."""
 
-# Initialize mode and plugins
-from . import mode, plugins, utils
+# Initialize mode, plugins, and custom quantization backends.
+from . import duquant_affine, mode, plugins, utils
 
 # Add methods to mtq namespace
 from .compress import *
