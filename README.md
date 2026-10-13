@@ -85,6 +85,14 @@ Make sure to upgrade Model Optimizer to the latest version as described above.
 Visit our [installation guide](https://nvidia.github.io/Model-Optimizer/getting_started/2_installation.html) for
 more fine-grained control on installed dependencies or for alternative docker images and environment variables to setup.
 
+## LingBot-VA Quantization Reproduction
+
+The `lingbotva-ptq` branch contains the minimal DuQuant extension used with the
+separate LingBot-VA `control-aware-ptq` branch. See the
+[English guide](docs/lingbotva_quantization_reproduction.md) or
+[Chinese guide](docs/lingbotva_quantization_reproduction_zh.md) for the pinned
+base, repository responsibilities, artifact boundary, and validation commands.
+
 ## Techniques
 
 <div align="center">
